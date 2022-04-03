@@ -846,3 +846,8 @@ button:hover {
     height: 90px;
   }
 }
+@media (max-width:400x) {
+  p {
+    min-width:90%;
+  }
+}
