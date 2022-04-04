@@ -355,26 +355,30 @@ h4 {
 /*  */
 /*  */
 .projects-div {
-  padding: 5% 19%;
+ width: 97%;
+ max-width: 1200px;
+ margin: auto;
 }
 
-.projects-text {
+/* .projects-text {
   padding: 0 0 7% 0;
-}
+} */
 
-.project-grid {
+/* .project-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-row: auto;
   grid-gap: 40px;
-}
+} */
 
 .projects-card {
   width: 100%;
   min-height: 300px;
   height: 100%;
-  background-color: #ffae00;
+  /* background-color: #ffae00; */
   border-radius: 10px;
+  box-shadow: 0 5px 40px rgba(0,0,0,0.2);
+  margin: 40px auto;
 }
 
 .project-card-text a {
@@ -450,7 +454,7 @@ h4 {
 .project-card-text:hover {
   opacity: 1;
 }
-
+/* 
 .card-1 {
   background-image: url("images/Paperpillar2.png");
   background-position: 50% 50%;
@@ -478,7 +482,7 @@ h4 {
 }
 .card-8{
   background-image: url("https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_900/Screenshots/l10lmp2ncdolaavvefn4.jpg");
-}
+} */
 /*  */
 
 /*  */
@@ -580,7 +584,65 @@ button:hover {
   background-color: #e89e00;
 }
 
-/*giratorias*/
+.redesign{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  min-height: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.fixA{
+  padding: 0 !important;
+}
+.redesign img{
+  width: 100%;
+  border-radius: 10px;
+  max-height: 400px;
+}
+.redesign > div:first-of-type{
+display: flex;
+flex-direction: column;
+place-content: center;
+}
+.skillsList{
+  display: flex;
+  margin:10px auto;
+}
+.redesign p{
+  margin-bottom: 20px;
+}
+.skillsList div{
+  background-color: cornflowerblue;
+  color: white;
+  padding: 5px 25px;
+  border-radius: 15px;
+  font-size: 0.9vw;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+@media (max-width:1199px) {
+  .redesign{
+    grid-template-columns: 1fr ;
+  }
+  .skillsList div{
+    font-size: 1.5vw;
+  }
+  .redesign > div:first-of-type{
+    margin-bottom: 50px;
+    
+  }
+}
+
+
+
+
+
 /*  */
 @media (max-width:1700px) {
   .top-container {
@@ -757,20 +819,21 @@ button:hover {
   }
 
   /*  */
-  .project-grid {
+  /* .project-grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-row: auto;
     grid-gap: 40px;
-  }
+  } */
 
   .projects-text {
+    margin-bottom: 50px;
     text-align: center;
   }
-.pro-card-010{
+ /* .pro-card-010{
   grid-column: 1/4;
   grid-row: 2/3;
-}
+ }
   .pro-card-025 {
     grid-column: 1/4;
     grid-row: 3/4;
@@ -799,10 +862,10 @@ button:hover {
   }
   .pro-card-5{
     grid-column: 1/4;
-  }
-  .projects-div {
+  } */
+  /* .projects-div {
     padding: 15% 5%;
-  }
+  } */
 
   /*  */
   /*  */
@@ -846,8 +909,17 @@ button:hover {
     height: 90px;
   }
 }
-@media (max-width:400x) {
+@media (max-width:1100px) {
+  .skillsList div {
+    font-size: 3vw !important;
+  }
+   h2{
+ font-size: 10vw;
+  }
+}
+@media (max-width:600px) {
   p {
     min-width:90%;
   }
+
 }
