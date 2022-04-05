@@ -901,7 +901,7 @@ place-content: center;
   }
 
   .foot-grid-piece {
-    margin: 10% auto;
+    margin: 10% 0;
   }
 
   .foot-button {
@@ -916,10 +916,11 @@ place-content: center;
    h2{
  font-size: 10vw;
   }
-}
-@media (max-width:600px) {
   p {
     min-width:90%;
   }
-
 }
+/* @media (max-width:600px) {
+
+
+} */
