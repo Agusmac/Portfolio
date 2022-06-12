@@ -621,7 +621,8 @@ place-content: center;
   color: white;
   padding: 5px 25px;
   border-radius: 15px;
-  font-size: 0.9vw;
+  font-size: 18px;
+  /* font-size: 0.9vw; */
   font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   margin-right: 15px;
@@ -819,56 +820,11 @@ place-content: center;
     top: 200px;
   }
 
-  /*  */
-  /* .project-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-row: auto;
-    grid-gap: 40px;
-  } */
-
   .projects-text {
     margin-bottom: 50px;
     text-align: center;
   }
- /* .pro-card-010{
-  grid-column: 1/4;
-  grid-row: 2/3;
- }
-  .pro-card-025 {
-    grid-column: 1/4;
-    grid-row: 3/4;
-  }
-  .pro-card-05 {
-    grid-column: 1/4;
-    grid-row: 4/5;
-  }
 
-  .pro-card-1 {
-    grid-column: 1/4;
-    grid-row: 5/6;
-  }
-
-  .pro-card-2 {
-    grid-column: 1/4;
-    grid-row: 6/7;
-  }
-  .pro-card-3 {
-    grid-column: 1/4;
-    grid-row: 7/8;
-  }
-  .pro-card-4 {
-    grid-column: 1/4;
-    grid-row: 8/9;
-  }
-  .pro-card-5{
-    grid-column: 1/4;
-  } */
-  /* .projects-div {
-    padding: 15% 5%;
-  } */
-
-  /*  */
   /*  */
   .awards {
     margin: 10% 5%;
