@@ -5,6 +5,10 @@
   text-decoration: none;
   list-style: none;
 }
+html{
+  scroll-behavior: smooth;
+  scroll-padding: 2rem;
+}
 body{
   overflow-x: hidden;
 }
