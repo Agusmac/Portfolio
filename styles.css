@@ -7,7 +7,7 @@
 }
 html{
   scroll-behavior: smooth;
-  scroll-padding: 2rem;
+  scroll-padding-top: 2rem;
 }
 body{
   overflow-x: hidden;
